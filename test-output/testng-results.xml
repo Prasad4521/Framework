@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-13T13:44:17 IST" name="Suite" finished-at="2024-02-13T13:44:37 IST" duration-ms="20319">
+    <groups>
+    </groups>
+    <test started-at="2024-02-13T13:44:17 IST" name="TestTwo" finished-at="2024-02-13T13:44:25 IST" duration-ms="8239">
+      <class name="tests.TwoTest">
+        <test-method signature="twoTest()[pri:0, instance:tests.TwoTest@6dee4f1b]" started-at="2024-02-13T13:44:17 IST" name="twoTest" finished-at="2024-02-13T13:44:25 IST" duration-ms="8186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoTest -->
+      </class> <!-- tests.TwoTest -->
+    </test> <!-- TestTwo -->
+    <test started-at="2024-02-13T13:44:17 IST" name="TestThree" finished-at="2024-02-13T13:44:26 IST" duration-ms="8762">
+      <class name="tests.ThreeTest">
+        <test-method signature="threeTest()[pri:0, instance:tests.ThreeTest@5d12a356]" started-at="2024-02-13T13:44:17 IST" name="threeTest" finished-at="2024-02-13T13:44:26 IST" duration-ms="8714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeTest -->
+      </class> <!-- tests.ThreeTest -->
+    </test> <!-- TestThree -->
+    <test started-at="2024-02-13T13:44:17 IST" name="TestFour" finished-at="2024-02-13T13:44:26 IST" duration-ms="9488">
+      <class name="tests.FourTest">
+        <test-method signature="fourTest()[pri:0, instance:tests.FourTest@7e4204e2]" started-at="2024-02-13T13:44:17 IST" name="fourTest" finished-at="2024-02-13T13:44:25 IST" duration-ms="8156" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at tests.FourTest.fourTest(FourTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourTest -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.FourTest@7e4204e2]" started-at="2024-02-13T13:44:26 IST" name="closure" finished-at="2024-02-13T13:44:26 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.FourTest -->
+    </test> <!-- TestFour -->
+    <test started-at="2024-02-13T13:44:17 IST" name="LoginTest" finished-at="2024-02-13T13:44:37 IST" duration-ms="20318">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.LoginTest@7e3181aa]" started-at="2024-02-13T13:44:17 IST" name="openApplication" finished-at="2024-02-13T13:44:23 IST" duration-ms="6048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@7e3181aa]" started-at="2024-02-13T13:44:23 IST" name="login" data-provider="getLoginData" finished-at="2024-02-13T13:44:27 IST" duration-ms="4152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prasad.selenium5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium5@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LoginTest@7e3181aa]" started-at="2024-02-13T13:44:27 IST" name="closure" finished-at="2024-02-13T13:44:27 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.LoginTest@7e3181aa]" started-at="2024-02-13T13:44:27 IST" name="openApplication" finished-at="2024-02-13T13:44:29 IST" duration-ms="1713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@7e3181aa]" started-at="2024-02-13T13:44:29 IST" name="login" data-provider="getLoginData" finished-at="2024-02-13T13:44:37 IST" duration-ms="8221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy.selenium5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123dp02377]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LoginTest@7e3181aa]" started-at="2024-02-13T13:44:37 IST" name="closure" finished-at="2024-02-13T13:44:37 IST" duration-ms="16" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2aa248a0f2bd874c377cac6ac176e37c, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\goud8\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62615/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2aa248a0f2bd874c377cac6ac176e37c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2aa248a0f2bd874c377cac6ac176e37c, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\goud8\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62615/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2aa248a0f2bd874c377cac6ac176e37c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:410)
+at tests.LoginTest.closure(LoginTest.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-15T19:35:47 IST" name="Suite" finished-at="2024-01-15T19:36:09 IST" duration-ms="22515">
+    <groups>
+    </groups>
+    <test started-at="2024-01-15T19:35:47 IST" name="TestThree" finished-at="2024-01-15T19:35:52 IST" duration-ms="5669">
+      <class name="tests.ThreeTest">
+        <test-method signature="threeTest()[pri:0, instance:tests.ThreeTest@50378a4]" started-at="2024-01-15T19:35:47 IST" name="threeTest" finished-at="2024-01-15T19:35:52 IST" duration-ms="5636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeTest -->
+      </class> <!-- tests.ThreeTest -->
+    </test> <!-- TestThree -->
+    <test started-at="2024-01-15T19:35:47 IST" name="TestTwo" finished-at="2024-01-15T19:35:53 IST" duration-ms="5777">
+      <class name="tests.TwoTest">
+        <test-method signature="twoTest()[pri:0, instance:tests.TwoTest@25df00a0]" started-at="2024-01-15T19:35:47 IST" name="twoTest" finished-at="2024-01-15T19:35:53 IST" duration-ms="5746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoTest -->
+      </class> <!-- tests.TwoTest -->
+    </test> <!-- TestTwo -->
+    <test started-at="2024-01-15T19:35:47 IST" name="TestFour" finished-at="2024-01-15T19:35:53 IST" duration-ms="5869">
+      <class name="tests.FourTest">
+        <test-method signature="fourTest()[pri:0, instance:tests.FourTest@6d60fe40]" started-at="2024-01-15T19:35:47 IST" name="fourTest" finished-at="2024-01-15T19:35:52 IST" duration-ms="5459" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at tests.FourTest.fourTest(FourTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourTest -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.FourTest@6d60fe40]" started-at="2024-01-15T19:35:53 IST" name="closure" finished-at="2024-01-15T19:35:53 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.FourTest -->
+    </test> <!-- TestFour -->
+    <test started-at="2024-01-15T19:35:47 IST" name="LoginTest" finished-at="2024-01-15T19:36:09 IST" duration-ms="22515">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.LoginTest@5340477f]" started-at="2024-01-15T19:35:47 IST" name="openApplication" finished-at="2024-01-15T19:35:50 IST" duration-ms="3537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5340477f]" started-at="2024-01-15T19:35:50 IST" name="login" data-provider="getLoginData" finished-at="2024-01-15T19:35:54 IST" duration-ms="3735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prasad.selenium5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium5@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LoginTest@5340477f]" started-at="2024-01-15T19:35:54 IST" name="closure" finished-at="2024-01-15T19:35:54 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.LoginTest@5340477f]" started-at="2024-01-15T19:35:54 IST" name="openApplication" finished-at="2024-01-15T19:35:56 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5340477f]" started-at="2024-01-15T19:35:56 IST" name="login" data-provider="getLoginData" finished-at="2024-01-15T19:36:09 IST" duration-ms="13668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy.selenium5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123dp02377]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LoginTest@5340477f]" started-at="2024-01-15T19:36:09 IST" name="closure" finished-at="2024-01-15T19:36:09 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,140 @@
+12:18:02.690 [main] DEBUG tests.LoginTest - Browser got launched
+12:18:04.133 [main] DEBUG tests.LoginTest - Navigated to application URL
+12:18:04.253 [main] DEBUG tests.LoginTest - Clicked on My Account dropdown
+12:18:04.519 [main] DEBUG tests.LoginTest - Clicked on login option
+12:18:07.770 [main] DEBUG tests.LoginTest - Email addressed got entered
+12:18:07.841 [main] DEBUG tests.LoginTest - Password got entered
+12:18:08.338 [main] DEBUG tests.LoginTest - Clicked on Login Button
+12:18:08.405 [main] DEBUG tests.LoginTest - User got logged in
+12:18:08.405 [main] INFO  tests.LoginTest - Login Test got passed
+12:18:08.485 [main] DEBUG tests.LoginTest - Browser got closed
+12:18:09.387 [main] DEBUG tests.LoginTest - Browser got launched
+12:18:10.815 [main] DEBUG tests.LoginTest - Navigated to application URL
+12:18:10.886 [main] DEBUG tests.LoginTest - Clicked on My Account dropdown
+12:18:11.203 [main] DEBUG tests.LoginTest - Clicked on login option
+12:18:14.353 [main] DEBUG tests.LoginTest - Email addressed got entered
+12:18:14.428 [main] DEBUG tests.LoginTest - Password got entered
+12:18:14.810 [main] DEBUG tests.LoginTest - Clicked on Login Button
+12:18:24.854 [main] DEBUG tests.LoginTest - User didn't log in
+12:18:24.854 [main] INFO  tests.LoginTest - Login Test got passed
+12:18:24.930 [main] DEBUG tests.LoginTest - Browser got closed
+11:33:10.630 [main] DEBUG tests.LoginTest - Browser got launched
+11:33:11.364 [main] DEBUG tests.LoginTest - Navigated to application URL
+11:33:11.486 [main] DEBUG tests.LoginTest - Clicked on My Account dropdown
+11:33:11.699 [main] DEBUG tests.LoginTest - Clicked on login option
+11:33:15.006 [main] DEBUG tests.LoginTest - Email addressed got entered
+11:33:15.085 [main] DEBUG tests.LoginTest - Password got entered
+11:33:15.519 [main] DEBUG tests.LoginTest - Clicked on Login Button
+11:33:15.585 [main] DEBUG tests.LoginTest - User got logged in
+11:33:15.585 [main] INFO  tests.LoginTest - Login Test got passed
+11:33:15.661 [main] DEBUG tests.LoginTest - Browser got closed
+11:33:16.809 [main] DEBUG tests.LoginTest - Browser got launched
+11:33:17.542 [main] DEBUG tests.LoginTest - Navigated to application URL
+11:33:17.618 [main] DEBUG tests.LoginTest - Clicked on My Account dropdown
+11:33:17.819 [main] DEBUG tests.LoginTest - Clicked on login option
+11:33:21.047 [main] DEBUG tests.LoginTest - Email addressed got entered
+11:33:21.115 [main] DEBUG tests.LoginTest - Password got entered
+11:33:21.452 [main] DEBUG tests.LoginTest - Clicked on Login Button
+11:33:31.507 [main] DEBUG tests.LoginTest - User didn't log in
+11:33:31.508 [main] INFO  tests.LoginTest - Login Test got passed
+11:33:31.629 [main] DEBUG tests.LoginTest - Browser got closed
+11:38:21.493 [main] DEBUG tests.LoginTest - Browser got launched
+11:38:22.258 [main] DEBUG tests.LoginTest - Navigated to application URL
+11:38:22.351 [main] DEBUG tests.LoginTest - Clicked on My Account dropdown
+11:38:22.583 [main] DEBUG tests.LoginTest - Clicked on login option
+11:38:25.700 [main] DEBUG tests.LoginTest - Email addressed got entered
+11:38:25.763 [main] DEBUG tests.LoginTest - Password got entered
+11:38:26.197 [main] DEBUG tests.LoginTest - Clicked on Login Button
+11:38:26.265 [main] DEBUG tests.LoginTest - User got logged in
+11:38:26.265 [main] INFO  tests.LoginTest - Login Test got passed
+11:38:26.370 [main] DEBUG tests.LoginTest - Browser got closed
+11:38:27.281 [main] DEBUG tests.LoginTest - Browser got launched
+11:38:27.910 [main] DEBUG tests.LoginTest - Navigated to application URL
+11:38:27.982 [main] DEBUG tests.LoginTest - Clicked on My Account dropdown
+11:38:28.193 [main] DEBUG tests.LoginTest - Clicked on login option
+11:38:31.404 [main] DEBUG tests.LoginTest - Email addressed got entered
+11:38:31.475 [main] DEBUG tests.LoginTest - Password got entered
+11:38:31.834 [main] DEBUG tests.LoginTest - Clicked on Login Button
+11:38:41.867 [main] DEBUG tests.LoginTest - User didn't log in
+11:38:41.867 [main] INFO  tests.LoginTest - Login Test got passed
+11:38:41.930 [main] DEBUG tests.LoginTest - Browser got closed
+11:40:27.303 [main] DEBUG tests.LoginTest - Browser got launched
+11:40:28.013 [main] DEBUG tests.LoginTest - Navigated to application URL
+11:40:28.116 [main] DEBUG tests.LoginTest - Clicked on My Account dropdown
+11:40:28.339 [main] DEBUG tests.LoginTest - Clicked on login option
+11:40:31.484 [main] DEBUG tests.LoginTest - Email addressed got entered
+11:40:31.556 [main] DEBUG tests.LoginTest - Password got entered
+11:40:31.952 [main] DEBUG tests.LoginTest - Clicked on Login Button
+11:40:32.021 [main] DEBUG tests.LoginTest - User got logged in
+11:40:32.021 [main] INFO  tests.LoginTest - Login Test got passed
+11:40:32.101 [main] DEBUG tests.LoginTest - Browser got closed
+11:40:33.102 [main] DEBUG tests.LoginTest - Browser got launched
+11:40:33.753 [main] DEBUG tests.LoginTest - Navigated to application URL
+11:40:33.833 [main] DEBUG tests.LoginTest - Clicked on My Account dropdown
+11:40:34.059 [main] DEBUG tests.LoginTest - Clicked on login option
+11:40:37.168 [main] DEBUG tests.LoginTest - Email addressed got entered
+11:40:37.233 [main] DEBUG tests.LoginTest - Password got entered
+11:40:37.490 [main] DEBUG tests.LoginTest - Clicked on Login Button
+11:40:47.534 [main] DEBUG tests.LoginTest - User didn't log in
+11:40:47.534 [main] INFO  tests.LoginTest - Login Test got passed
+11:40:47.635 [main] DEBUG tests.LoginTest - Browser got closed
+11:41:21.801 [main] DEBUG tests.LoginTest - Browser got launched
+11:41:22.439 [main] DEBUG tests.LoginTest - Navigated to application URL
+11:41:22.546 [main] DEBUG tests.LoginTest - Clicked on My Account dropdown
+11:41:22.764 [main] DEBUG tests.LoginTest - Clicked on login option
+11:41:25.879 [main] DEBUG tests.LoginTest - Email addressed got entered
+11:41:25.958 [main] DEBUG tests.LoginTest - Password got entered
+11:41:26.395 [main] DEBUG tests.LoginTest - Clicked on Login Button
+11:41:26.455 [main] DEBUG tests.LoginTest - User got logged in
+11:41:26.455 [main] INFO  tests.LoginTest - Login Test got passed
+11:41:26.582 [main] DEBUG tests.LoginTest - Browser got closed
+11:41:27.604 [main] DEBUG tests.LoginTest - Browser got launched
+11:41:28.223 [main] DEBUG tests.LoginTest - Navigated to application URL
+11:41:28.307 [main] DEBUG tests.LoginTest - Clicked on My Account dropdown
+11:41:28.580 [main] DEBUG tests.LoginTest - Clicked on login option
+11:41:31.858 [main] DEBUG tests.LoginTest - Email addressed got entered
+11:41:31.924 [main] DEBUG tests.LoginTest - Password got entered
+11:41:32.242 [main] DEBUG tests.LoginTest - Clicked on Login Button
+11:41:42.274 [main] DEBUG tests.LoginTest - User didn't log in
+11:41:42.274 [main] INFO  tests.LoginTest - Login Test got passed
+11:41:42.380 [main] DEBUG tests.LoginTest - Browser got closed
+11:44:21.937 [TestNG-tests-4] DEBUG tests.LoginTest - Browser got launched
+11:44:22.818 [TestNG-tests-4] DEBUG tests.LoginTest - Navigated to application URL
+11:44:22.927 [TestNG-tests-4] DEBUG tests.LoginTest - Clicked on My Account dropdown
+11:44:23.155 [TestNG-tests-4] DEBUG tests.LoginTest - Clicked on login option
+11:44:26.375 [TestNG-tests-4] DEBUG tests.LoginTest - Email addressed got entered
+11:44:26.450 [TestNG-tests-4] DEBUG tests.LoginTest - Password got entered
+11:44:26.837 [TestNG-tests-4] DEBUG tests.LoginTest - Clicked on Login Button
+11:44:26.899 [TestNG-tests-4] DEBUG tests.LoginTest - User got logged in
+11:44:26.899 [TestNG-tests-4] INFO  tests.LoginTest - Login Test got passed
+11:44:26.983 [TestNG-tests-4] DEBUG tests.LoginTest - Browser got closed
+11:44:27.891 [TestNG-tests-4] DEBUG tests.LoginTest - Browser got launched
+11:44:28.818 [TestNG-tests-4] DEBUG tests.LoginTest - Navigated to application URL
+11:44:28.910 [TestNG-tests-4] DEBUG tests.LoginTest - Clicked on My Account dropdown
+11:44:29.140 [TestNG-tests-4] DEBUG tests.LoginTest - Clicked on login option
+11:44:32.249 [TestNG-tests-4] DEBUG tests.LoginTest - Email addressed got entered
+11:44:32.331 [TestNG-tests-4] DEBUG tests.LoginTest - Password got entered
+11:44:32.645 [TestNG-tests-4] DEBUG tests.LoginTest - Clicked on Login Button
+11:44:42.713 [TestNG-tests-4] DEBUG tests.LoginTest - User didn't log in
+11:44:42.713 [TestNG-tests-4] INFO  tests.LoginTest - Login Test got passed
+11:44:42.811 [TestNG-tests-4] DEBUG tests.LoginTest - Browser got closed
+11:45:09.026 [TestNG-tests-4] DEBUG tests.LoginTest - Browser got launched
+11:45:10.244 [TestNG-tests-4] DEBUG tests.LoginTest - Navigated to application URL
+11:45:10.355 [TestNG-tests-4] DEBUG tests.LoginTest - Clicked on My Account dropdown
+11:45:10.581 [TestNG-tests-4] DEBUG tests.LoginTest - Clicked on login option
+11:45:13.845 [TestNG-tests-4] DEBUG tests.LoginTest - Email addressed got entered
+11:45:13.927 [TestNG-tests-4] DEBUG tests.LoginTest - Password got entered
+11:45:14.359 [TestNG-tests-4] DEBUG tests.LoginTest - Clicked on Login Button
+11:45:14.438 [TestNG-tests-4] DEBUG tests.LoginTest - User got logged in
+11:45:14.438 [TestNG-tests-4] INFO  tests.LoginTest - Login Test got passed
+11:45:14.577 [TestNG-tests-4] DEBUG tests.LoginTest - Browser got closed
+11:45:15.682 [TestNG-tests-4] DEBUG tests.LoginTest - Browser got launched
+11:45:16.620 [TestNG-tests-4] DEBUG tests.LoginTest - Navigated to application URL
+11:45:16.699 [TestNG-tests-4] DEBUG tests.LoginTest - Clicked on My Account dropdown
+11:45:16.914 [TestNG-tests-4] DEBUG tests.LoginTest - Clicked on login option
+11:45:20.066 [TestNG-tests-4] DEBUG tests.LoginTest - Email addressed got entered
+11:45:20.135 [TestNG-tests-4] DEBUG tests.LoginTest - Password got entered
+11:45:20.413 [TestNG-tests-4] DEBUG tests.LoginTest - Clicked on Login Button
+11:45:30.486 [TestNG-tests-4] DEBUG tests.LoginTest - User didn't log in
+11:45:30.486 [TestNG-tests-4] INFO  tests.LoginTest - Login Test got passed
+11:45:30.544 [TestNG-tests-4] DEBUG tests.LoginTest - Browser got closed
